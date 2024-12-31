@@ -1,0 +1,27 @@
+{
+  "name": "englishdom/eventbus-dto",
+  "description": "DTO for eventbus service of englishdom",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "events",
+    "dto"
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.3|^8.0|^8.1|^8.2"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "EventBus\\": "src/"
+    }
+  },
+  "scripts": {
+    "fix:cs": "vendor/bin/phpcbf"
+  }
+}
